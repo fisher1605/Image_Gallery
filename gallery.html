@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Bootstrap</title>
+    <style>
+        .col-sm {
+            border: 1px grey solid;
+        }
+        .img-holder img{
+            object-fit: contain;
+            object-position: 50% 50%;
+            height: 300px;
+        }
+        .img-holder-responsive {
+            height: 300px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1>Bootstrap!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="img-holder">
+                    <img src="1.jpg" class="img-fluid rounded " alt="Responsive image">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="img-holder">
+                    <img src="2.jpg" class="img-fluid rounded " alt="Responsive image">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="img-holder">
+                    <img src="3.jpg" class="img-fluid rounded " alt="Responsive image">
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+                <div class="img-holder-responsive" style="background: url('1.jpg') no-repeat; background-size: contain; background-position: 50% 50%;">
+                    
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="img-holder-responsive" style="background: url('2.jpg') no-repeat; background-size: contain; background-position: 50% 50%;">
+                    
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="img-holder-responsive" style="background: url('3.jpg') no-repeat; background-size: contain; background-position: 50% 50%;">
+                    
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+                <div class="img-holder-responsive" style="background: url('1.jpg') no-repeat; background-size: contain; background-position: 50% 50%;">
+                    
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="img-holder-responsive" style="background: url('2.jpg') no-repeat; background-size: contain; background-position: 50% 50%;">
+                    
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="img-holder-responsive" style="background: url('3.jpg') no-repeat; background-size: contain; background-position: 50% 50%;">
+                    
+                </div>
+            </div>
+          </div>
+      </div>
+</body>
+</html>
